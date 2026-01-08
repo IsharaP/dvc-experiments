@@ -3,13 +3,124 @@ params:
 - results/train/params.yaml
 - results/train/params.yaml
 - results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
+- results/train/params.yaml
 metrics:
+- results/train/metrics.json
+- results/evaluate/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/evaluate/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/evaluate/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
+- results/train/metrics.json
 - results/train/metrics.json
 - results/evaluate/metrics.json
 plots:
 - results/train/plots/metrics:
     x: step
 - results/evaluate/plots/images
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
+- results/train/plots/metrics:
+    x: step
 artifacts:
   pool-segmentation:
     path: models/model.pkl
@@ -20,7 +131,7 @@ artifacts:
     - cv
     - segmentation
     - satellite-images
-    - shufflenet_v2_x2_0
+    - unet
 stages:
   data_split:
     cmd: python src/data_split.py
